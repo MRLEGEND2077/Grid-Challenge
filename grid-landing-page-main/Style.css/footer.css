@@ -1,0 +1,28 @@
+.main-footer {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-left {
+  color: hsl(0, 0%, 100%);
+}
+
+.footer-right {
+  color: hsl(0, 0%, 100%);
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .main-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .footer-right {
+    text-align: left;
+  }
+}
